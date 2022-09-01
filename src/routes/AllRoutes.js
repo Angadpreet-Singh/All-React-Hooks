@@ -8,7 +8,12 @@ import UseMemo from "../hooks/UseMemo";
 import UseReducer from "../hooks/UseReducer";
 import UseRef from "../hooks/UseRef";
 import UseState from "../hooks/UseState";
+import UseParam from "../hooks/Useparam";
+import Users from "../screen/Users";
 import Home from "../screen/home";
+import Searchparam from "../hooks/UseSearchParam";
+import UseNavigate from "../hooks/UseNavigate";
+import UseLocation from "../hooks/UseLocation";
 const AllRoutes=()=>{
     return(
         <div>
@@ -23,6 +28,11 @@ const AllRoutes=()=>{
             <Route path="/use-effect" element={<UseEffect/>}></Route>
             <Route path="/use-context" element={<UseContext/>}></Route>
             <Route path="/use-callback" element={<UseCallBack/>}></Route>
+            <Route path="/use-param" element={<UseParam/>}></Route>
+            <Route path="/user/:name" element={<Users/>}></Route>
+            <Route path="/use-Search-Param" element={<Searchparam/>}></Route>
+            <Route path="/use-Navigate" element={<UseNavigate/>}></Route>
+            <Route path="/use-Location" element={<UseLocation/>}></Route>
         </Routes>
         </div>)
 }

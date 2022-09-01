@@ -9,7 +9,12 @@ const Home=()=>{
     <Link to='/use-imperative-handle'>use-imperative-handle</Link><br />
     <Link to='/use-effect'>use-effect</Link><br />
     <Link to='/use-context'>use-context</Link><br />
-    <Link to='/use-callback'>use-callback</Link></div>
+    <Link to='/use-callback'>use-callback</Link><br />
+    <Link to='/use-param'>use-param</Link><br />
+    <Link to='/use-Search-Param'>use-search-param</Link><br />
+    <Link to='/use-Navigate'>use-navigate</Link><br />
+    <Link to='/use-Location' state={{data:"This is useLocation State Data"}} >use-Location</Link><br />
+    </div>
     )
 }
 export default Home;
