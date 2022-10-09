@@ -13,7 +13,7 @@ useImperativeHandle(ref,()=>{
     }
 })
 return(
-    <div>
+    <div className="comp-wrapper">
         <h1>Child for UseImperativeHandle :-</h1>
         <button onClick={change}>Child Button</button><br />
         {val && <span>Trigger</span>}

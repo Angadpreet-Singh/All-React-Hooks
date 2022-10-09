@@ -14,6 +14,7 @@ import Home from "../screen/home";
 import Searchparam from "../hooks/UseSearchParam";
 import UseNavigate from "../hooks/UseNavigate";
 import UseLocation from "../hooks/UseLocation";
+import Redux from "../redux-container/homeContainer";
 const AllRoutes=()=>{
     return(
         <div>
@@ -33,6 +34,7 @@ const AllRoutes=()=>{
             <Route path="/use-Search-Param" element={<Searchparam/>}></Route>
             <Route path="/use-Navigate" element={<UseNavigate/>}></Route>
             <Route path="/use-Location" element={<UseLocation/>}></Route>
+            <Route path="/react-Redux" element={<Redux/>}></Route>
         </Routes>
         </div>)
 }

@@ -14,6 +14,7 @@ const Home=()=>{
     <Link to='/use-Search-Param'>use-search-param</Link><br />
     <Link to='/use-Navigate'>use-navigate</Link><br />
     <Link to='/use-Location' state={{data:"This is useLocation State Data"}} >use-Location</Link><br />
+    <Link to='/react-Redux' >React-Redux</Link><br />
     </div>
     )
 }
